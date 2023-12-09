@@ -60,7 +60,7 @@ const useMenu = () => {
         to: '/settings',
         // Permissions of this link are retrieved in the init phase
         // using the settings menu
-        permissions: [],
+        permissions: permissions.marketplace?.main ?? [],
         notificationsCount: 0,
       },
     ],

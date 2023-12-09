@@ -27,6 +27,7 @@ export const ADMIN_PERMISSIONS_CE = {
     read: [{ action: 'admin::marketplace.read', subject: null }],
   },
   settings: {
+    main: [{ action: 'admin::settings.read', subject: null }],
     roles: {
       main: [
         { action: 'admin::roles.create', subject: null },

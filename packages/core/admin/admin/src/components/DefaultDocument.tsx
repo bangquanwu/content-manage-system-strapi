@@ -28,7 +28,7 @@ const DefaultDocument = () => {
         <meta name="robots" content="noindex" />
         <meta name="referrer" content="same-origin" />
 
-        <title>Strapi Admin</title>
+        <title>Content Manage Admin</title>
         <style>{globalStyles}</style>
       </head>
       <body>

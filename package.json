@@ -30,10 +30,11 @@
   ],
   "scripts": {
     "build": "nx run-many --target=build --nx-ignore-cycles",
+    "build:admin": "cd packages/core/admin && yarn build && cd - && rm -rf dist && cp -a packages/core/admin/dist ./",
     "build:size": "cd examples/getstarted && yarn build",
     "build:ts": "nx run-many --target=build:ts --nx-ignore-cycles",
     "clean": "nx run-many --target=clean --nx-ignore-cycles",
-    "doc:api": "node scripts/open-api/serve.js",
+    "doc:api": "node scripts/open-api/serve.js", 
     "format": "yarn format:code && yarn format:other",
     "format:code": "yarn prettier:code --write",
     "format:other": "yarn prettier:other --write",
