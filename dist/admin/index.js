@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
-const index = require("../_chunks/index-af49f8af.js");
+const index = require("../_chunks/index-be8080e3.js");
 require("react/jsx-runtime");
 require("@strapi/helper-plugin");
 require("react-dom/client");

@@ -1,4 +1,4 @@
-import { v, w } from "../_chunks/index-5878762d.mjs";
+import { v, w } from "../_chunks/index-90ba4fba.mjs";
 import "react/jsx-runtime";
 import "@strapi/helper-plugin";
 import "react-dom/client";

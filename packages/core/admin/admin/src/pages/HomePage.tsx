@@ -122,14 +122,6 @@ const HomePageCE = () => {
               </div>
             </GridItem>
           </Grid>
-          <Grid gap={6}>
-            <GridItem col={8} s={12}>
-              {showGuidedTour ? <GuidedTourHomepage /> : <ContentBlocks />}
-            </GridItem>
-            <GridItem col={4} s={12}>
-              <SocialLinks />
-            </GridItem>
-          </Grid>
         </Box>
       </Main>
     </Layout>
